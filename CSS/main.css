@@ -23,6 +23,7 @@ body{
 .Header-form{
     color: #979696;
     padding-top: 80px;
+    padding-bottom: 80px;
     font-size: 25px;
 }
 .Header-form h1{
@@ -34,5 +35,40 @@ body{
     display: flex;
     flex-direction: column;
     float: right;
-    margin-top: -20px; 
+    margin-top: -15px; 
+}
+.content input{
+    width: 412px;
+    padding: 28px 25px;
+    margin-bottom: 30px;
+
+    border: none;
+    outline: none;
+
+    font-size: 24px;
+    color: #979696;
+    border-top: 1px solid #121317;
+    border-bottom: 1px solid #18191e;
+    background-color: #18191e;
+}
+.content button{
+    border: none;
+    outline: none;
+
+    width: 460px;
+    padding: 28px 25px;
+    background-color: #d29d41;
+    color: #6c411b;
+}
+.form-footer{
+    font-size: 18px;
+    color: #979696;
+    margin-top: 45px;
+}
+.form-footer span{
+    padding-right: 30px;
+}
+.form-footer a{
+    text-decoration: none;
+    color: #d29d41;
 }
