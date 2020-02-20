@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url(/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
@@ -51,14 +51,31 @@ body{
     border-bottom: 1px solid #18191e;
     background-color: #18191e;
 }
+.content input:focus{
+    border-bottom: 1px solid #df4a32;
+}
+.content .user{
+    background-image: url("../img/user.png");
+    /*?*/
+}
+.content .password{
+    background-image: url("../img/passwoed.png");
+    /*?*/
+}
 .content button{
     border: none;
     outline: none;
 
     width: 460px;
-    padding: 28px 25px;
+    padding: 25px 25px;
     background-color: #d29d41;
     color: #6c411b;
+
+    border-bottom: 3px solid #d29d41;
+    border-top: 3px solid #d29d41;
+}
+.content button:hover{
+    border-bottom: 3px solid #df4a32;
 }
 .form-footer{
     font-size: 18px;
@@ -71,4 +88,8 @@ body{
 .form-footer a{
     text-decoration: none;
     color: #d29d41;
+}
+.form-footer a:hover{
+    color: #979696;
+    border-bottom: 1px solid #d29d41;
 }
